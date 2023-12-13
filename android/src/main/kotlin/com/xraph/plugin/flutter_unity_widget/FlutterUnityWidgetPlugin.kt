@@ -19,7 +19,7 @@ import io.flutter.embedding.engine.plugins.lifecycle.FlutterLifecycleAdapter
 /** FlutterUnityWidgetPlugin */
 class FlutterUnityWidgetPlugin : FlutterPlugin, ActivityAware {
     
-    override var lifecycle: Lifecycle? = null
+    private var lifecycle: Lifecycle? = null
     
     private var flutterPluginBinding: FlutterPluginBinding? = null
 
